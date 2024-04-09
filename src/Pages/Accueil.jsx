@@ -36,17 +36,17 @@ const showCart =()=>{
                <Navbar/>
             <div className='main--part--container'>
               <div className='main--part--container--image'>
-                <img src="Banderole.jpg" alt="" />
+                <img src="https://img.freepik.com/photos-gratuite/portrait-jeune-etudiant-classe_23-2148844731.jpg?t=st=1712660167~exp=1712663767~hmac=e1a208190c81df9f63799841557fdfb9f2abce34e84fca46a765944bae255840&w=1380" alt="" />
               </div>
             </div>
             <div className='container'>
               <div className='container--presentation'>
                 <div className='container--presentation--content'>
-                  <h2>L’ECOLE-IT forme des experts en informatique</h2>
+                  <h2><strong>HETEA</strong> forme des experts en informatique</h2>
 
-                  <p className='desc'>L’ECOLE-IT forme des experts en informatique et délivre des titres professionnels reconnus par l’Etat de Niveau Bac+3 et Bac+5. </p>
+                  <p className='desc'> <strong>HETEA</strong> forme des experts en informatique et délivre des titres professionnels reconnus par l’Etat de Niveau Bac+3 et Bac+5. </p>
 
-                  <p className='desc'>L’ECOLE-IT rassemble des experts de la formation et des personnes issues du secteur professionnel privé et public, de façon à offrir à 
+                  <p className='desc'><strong>HETEA</strong> rassemble des experts de la formation et des personnes issues du secteur professionnel privé et public, de façon à offrir à 
                     ses étudiants une formation de pointe, qui combine théorie et pratique. Elle offre à ses étudiants un environnement dynamique et une formation 
                     répondant de près aux besoins des entreprises et s’adaptant à ceux-ci au fur et à mesure de l’évolution des technologies afin de leur garantir 
                     un accès direct au marché de l’emploi, dès la fin de leurs études.</p>
@@ -54,7 +54,7 @@ const showCart =()=>{
                     <p className='amb'>« Notre ambition : ​​former les futurs talents du numérique »</p>
 
                     <p className='desc'>Fort de leur expérience entrepreneuriale dans la Data dans le secteur pharmaceutique, Martin Zanchetta et Paul Moreau ont identifié un besoin crucial 
-                      de professionnels qualifiés et formées à l’IT. ​Suite à la cession de leur entreprise, ils ont fondé l’ECOLE-IT pour promouvoir les métiers de l’informatique et 
+                      de professionnels qualifiés et formées à <strong>HETEA</strong>. ​Suite à la cession de leur entreprise, ils ont fondé l’ECOLE-IT pour promouvoir les métiers de l’informatique et 
                       surtout répondre aux besoins des entreprises en matière de ressources humaines qualifiées.​​</p>
                 </div>
               </div>
@@ -125,8 +125,29 @@ const showCart =()=>{
 
           <div className='section__outlet'>
             <div className='section__outlet__container'>
-                <h3>Les debouchés</h3>
+                <div className='section__outlet__detail'>
+                <p className='outlet__title'> <i className="fa-solid fa-arrow-right"></i> Les debouchés</p>
+                <p className='outlet__description'>- Expert cybersécurité</p>
+                <p className='outlet__description'>- Consultant cybersécurité</p>
+                <p className='outlet__description'>- Pentesteur</p>
+                <p className='outlet__description'>- Directeur service informatique (DSI) </p>
+                <p className='outlet__description'>- Architecte BigData </p>
+                <p className='outlet__description'>- Ingénieur IA </p>
+                </div>
+                
+                <div className='section__outlet__detail'>
+                  <p className='outlet__description'>- Ingénieur Machine Learning </p>
+                  <p className='outlet__description'>- Administrateur base de données </p>
+                  <p className='outlet__description'>- Ingénieur systèmes & réseaux </p>
+                  <p className='outlet__description'>- Ingénieur DevOPS </p>
+                  <p className='outlet__description'>- Ingénieur Cloud </p>
+                  <p className='outlet__description'>- Développeur Full Stack </p>
+                  <p className='outlet__description'>- Développeur Web </p>
+                  <p className='outlet__description'>- Chef de projet </p>
+                  <p>Et de nombreux autres métiers... </p>
             </div>
+            </div>
+
           </div>
 
           <div className='section__inscription'>
