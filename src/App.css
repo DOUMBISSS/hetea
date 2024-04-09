@@ -130,6 +130,15 @@ span{
 .top--link{
   margin: 0 1rem;
 }
+.menu--top--social{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.menu--top--social > i{
+  color: white;
+}
 .main--part--container{
   width: 100%;
   height: auto;
@@ -200,7 +209,7 @@ span{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid cadetblue;
+  border-top: 1px solid gainsboro;
 }
 .cards__formation{
   width: 320px;
@@ -252,6 +261,81 @@ span{
   padding: 0.7rem;
   color: white;
   background-color: #d8a765;
+}
+.formation__title{
+  text-align: center;
+  font-weight: bold;
+}
+.section__inscription{
+width: 100%;
+height: 350px;
+padding: 2rem 7rem;
+border: 1px solid gainsboro;
+}
+.section__inscription__content{
+  width: 100%;
+  height: 100%;
+  padding: 1rem 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid gainsboro;
+  background-color: rgb(15, 52, 90);
+  border-radius: 0.7rem;
+}
+.section__inscription__left{
+  width: 50%;
+  height: 100%;
+  padding: 1rem 7rem;
+  /* border: 1px solid gainsboro; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.7rem;
+  color: white;
+}
+.section__inscription__left__img{
+  width: 200px;
+  height: 85px;
+  /* border: 1px solid gainsboro; */
+  border-radius: 0.7rem;
+  margin: 0 1rem;
+}
+.section__inscription__left__img img{
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid gainsboro; */
+  border-radius: 0.7rem;
+}
+.section__inscription__right{
+  width: 50%;
+  height: 100%;
+  padding: 3rem 3rem;
+  /* border: 1px solid gainsboro; */
+  background-color: rgb(15, 52, 90);
+  border-radius: 0.7rem;
+  color: white;
+}
+.btn__inscription__first{
+  padding: 0.5rem;
+  border: 1px solid gainsboro;
+  border-radius: 0.7rem;
+  background-color: #f0c14b;
+  color: white;
+  margin-top: 1rem;
+}
+.section__outlet{
+  width: 100%;
+  height: 400px;
+padding: 1rem 7rem;
+  border: 1px solid gainsboro;
+}
+.section__outlet__container{
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid gainsboro;
+
 }
 .part__newsletter{
   width: 100%;
@@ -407,54 +491,6 @@ span{
 }
 .icons{
   display: none;
-}
-.question--part{
-  width: 100%;
-  height: 50vh;
-  /* background-color:rgb(12, 52, 103); */
-  padding: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background: url('https://images.unsplash.com/photo-1423666639041-f56000c27a9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1774&q=80');
-  animation:fadeInRight 3s linear;
-}
-.question--part--content{
-  width: 90%;
-  height: 80%;
-  padding: 3rem;
-  text-align: center;
-}
-.question--part--content--box{
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px solid coral;
-}
-.question--part--btn{
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-.btn--contact{
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  background-color: coral;
-  margin-top: 1rem;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
-  border-radius: 0.6rem;
-  animation: pulse 2s infinite;
-}
-.question{
-  color: white;
 }
 .section--business--presentation{
   width: 100%;

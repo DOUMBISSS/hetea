@@ -23,8 +23,14 @@ function Navbar ({search,setSearch}) {
               <p className='top--link'>Agenda</p>
               <p className='top--link'>Contact</p>
               <p className='top--link'>International</p>
-              <div className=''>
+              <div className='menu--top--social'>
                 <p className='top--link'>Newsletter</p>
+                <i className="fa-brands fa-linkedin"></i>
+                <i className="fa-brands fa-facebook"></i>
+                <i className="fa-brands fa-instagram"></i>
+                <i className="fa-brands fa-x-twitter"></i>
+                <i className="fa-brands fa-tiktok"></i>
+
               </div>
           </div>
         </div>

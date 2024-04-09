@@ -62,7 +62,7 @@ const showCart =()=>{
           </div>
 
           <div className='section__formation'>
-            <h3>Nos Formations</h3>
+            <h3 className='formation__title'>Nos Formations</h3>
             <div className='section__formation__container'>
                 <div className='cards__formation'>
                   <div className='cards__formation__title__box'>
@@ -122,37 +122,31 @@ const showCart =()=>{
             </div>
 
           </div>
-          <div className="question--part">
-            <div className="question--part--content">
-             <h3 className='question'>À la recherche d'un service de nettoyage, nous proposons différent services !!</h3>
-            <div className="question--part--btn">
-             <Link className='liste' to="/contactez--nous"> 
-              <button className="btn--contact">Contactez-nous !</button>
-             </Link>
-            </div>
-            </div>
-        </div>
 
-          {/* <div className='part__newsletter'>
-            <div className='part__newsletter__content'>
-              <h3 className='news__header'>Ne manquez pas nos excellentes offres & Recevez des offres de tous nos meilleurs par e-mail !</h3>
-                <div className='news__container'>
-                      <div className='news__container__content'>
-                      <div className="news__container__input">
-                    <select class="form-select" aria-label="Default select example">
-                      <option selected>Sélectionnez votre ville</option>
-                      <option value="1">Abidjan</option>
-                    </select>
-                    </div>
-                    <div class="form-floating col-md-7">
-                      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
-                      <label for="floatingInput">Addresse email</label>
-                    </div>
-                      <button className='btn__newsletter'>Abonnez-vous à la newsletter</button>
-                      </div>
-                </div>
+          <div className='section__outlet'>
+            <div className='section__outlet__container'>
+                <h3>Les debouchés</h3>
             </div>
-          </div>  */}
+          </div>
+
+          <div className='section__inscription'>
+              <div className='section__inscription__content'>
+              <div className='section__inscription__left'>
+                <div className='section__inscription__left__img'>
+                <img src="https://img.freepik.com/photos-gratuite/icone-crayon-recto_187299-39542.jpg?t=st=1712654423~exp=1712658023~hmac=3bee4d046a4e7cc5a1fd305dab6b9b6b06cea6dc7a49d3646bddc74d5694cf04&w=740" alt="" />
+                </div>
+                <h1>COMMENT VOUS INSCRIRE ?</h1>
+                </div>
+                <div className='section__inscription__right'>
+                  <p>Les demandes d’admission sont possibles tout au long de l’année.
+                    Envie de nous rejoindre ? C’est par ici que tout commence…</p>
+                    <button className='btn__inscription__first'>Inscription <i className="fa-solid fa-arrow-right"></i></button>
+                </div>
+              </div>
+          </div>
+       
+
+        
           <Footer/>
         </div>
 
