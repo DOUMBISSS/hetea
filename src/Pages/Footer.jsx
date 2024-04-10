@@ -21,11 +21,11 @@ export default function Footer  () {
                   <p>Politique de confidentialité</p>
               </div>
 
-              <div className='schedule'>
+              {/* <div className='schedule'>
                 <h4 className='footer__title'>Horaire d'ouverture</h4>
                   <p>Lundi-Vendredi : 8h-16h</p>
                   <p>Samedi : 9h-12h</p>
-              </div>
+              </div> */}
               
               <div className='address'>
                 <h4 className='footer__title'>Contactez-nous</h4>

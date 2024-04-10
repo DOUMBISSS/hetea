@@ -21,7 +21,7 @@ export default function Contact () {
       number,
       content,
     }
-    fetch('https://mayedo.onrender.com/email',{
+    fetch('',{
       method:"POST",
       headers :{'Content-Type':"application/json"},
       body:JSON.stringify(data)
@@ -70,8 +70,8 @@ export default function Contact () {
                     <p>Aidez-nous à mieux comprendre vos besoins</p>
                   <p>Adresse : Cocody Angré 8e Tranche</p>
                   <p>Tel : +225 07 77 88 00 82</p>
-                  <p> E-mail : info@pureprocleaners.ci</p>
-                  <p>Site web : www.pureprocleaners.ci</p>
+                  <p> E-mail : info@hetea.ci</p>
+                  <p>Site web : www.hetea.ci</p>
                     </div>
                 </div>
             </div>

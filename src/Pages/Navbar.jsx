@@ -21,7 +21,6 @@ function Navbar ({search,setSearch}) {
           <div className='menu--top--content'>
               <p className='top--link'>Actualités</p>
               <p className='top--link'>Agenda</p>
-              <p className='top--link'>Contact</p>
               <p className='top--link'>International</p>
               <div className='menu--top--social'>
                 <p className='top--link'>Newsletter</p>
@@ -47,19 +46,18 @@ function Navbar ({search,setSearch}) {
                   </div>
             <div className="navbar--logo">
             {/* <Link to="/" className='header__title'><h5>SHOPPING<span>BAG</span></h5></Link> */}
-              <Link to="/"> <img src={`${process.env.PUBLIC_URL}/e.png`} alt=""/></Link>
+              <Link to="/"> <img src={`${process.env.PUBLIC_URL}/@.png`} alt=""/></Link>
             </div>
           </div>
           <div className="navbar--center">
             <div className="navbar--center--content">
               <Link className='liste' to="/"><p>Accueil</p></Link>
               <Link className='liste' to="/Nos__formations" ><p>Bacheliers et Masters</p></Link>
-              {/* <Link className='liste' to="/Notre--actualité"><p>Actualités</p></Link> */}
-              <Link className='liste' to="/"><p>Nos spécialités</p></Link>
               <Link className='liste' to="/"><p>Réseau HETEA</p></Link>
               <Link className='liste' to="/"><p>Formation continue</p></Link>
-              <Link className='liste' to="/contactez--nous"><p>Campus</p></Link>
-              <Link className='liste' to="/contactez--nous"><p>Galérie</p></Link>
+              <Link className='liste' to="/"><p>Campus</p></Link>
+              <Link className='liste' to="/"><p>Galérie</p></Link>
+              <Link className='liste' to="/contactez--nous"><p>Contact</p></Link>
             </div>
             <div className='logo--resp'>
               <div className="navbar--logo--resp">
