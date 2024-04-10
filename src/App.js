@@ -4,8 +4,7 @@ import Accueil from "./Pages/Accueil"
 import Presentation from "./Pages/Presentation";
 import Contact from "./Pages/Contact";
 import Info from "./Pages/Info";
-import Devis from "./Pages/Devis";
-import Prestations from "./Pages/Prestations";
+import Formations from './Pages/Formations';
 
 
 function App() {
@@ -15,9 +14,8 @@ function App() {
           <Route exact path="/" element={<Accueil />} />
           <Route path="/contactez--nous" element={<Contact />} />
           <Route path="/Notre--actualité" element={<Info />} />
-          <Route path="/Nos__prestations" element={<Prestations />} />
-          <Route path="/obtenir_devis" element={<Devis />} />
           <Route path="/Qui--sommes-nous" element={<Presentation />} />
+          <Route path="/Nos__formations" element={<Formations />} />
         </Routes>
       </>
   );

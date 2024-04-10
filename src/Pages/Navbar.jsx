@@ -53,11 +53,11 @@ function Navbar ({search,setSearch}) {
           <div className="navbar--center">
             <div className="navbar--center--content">
               <Link className='liste' to="/"><p>Accueil</p></Link>
-              <Link className='liste' to="/Qui--sommes-nous" ><p>Bacheliers et Masters</p></Link>
+              <Link className='liste' to="/Nos__formations" ><p>Bacheliers et Masters</p></Link>
               {/* <Link className='liste' to="/Notre--actualité"><p>Actualités</p></Link> */}
-              <Link className='liste' to="/Nos__prestations"><p>Nos spécialités</p></Link>
-              <Link className='liste' to="/Nos__prestations"><p>Réseau HETEA</p></Link>
-              <Link className='liste' to="/obtenir_devis"><p>Formation continue</p></Link>
+              <Link className='liste' to="/"><p>Nos spécialités</p></Link>
+              <Link className='liste' to="/"><p>Réseau HETEA</p></Link>
+              <Link className='liste' to="/"><p>Formation continue</p></Link>
               <Link className='liste' to="/contactez--nous"><p>Campus</p></Link>
               <Link className='liste' to="/contactez--nous"><p>Galérie</p></Link>
             </div>
