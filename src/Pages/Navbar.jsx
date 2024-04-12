@@ -53,10 +53,10 @@ function Navbar ({search,setSearch}) {
             <div className="navbar--center--content">
               <Link className='liste' to="/"><p>Accueil</p></Link>
               <Link className='liste' to="/Nos__formations" ><p>Bacheliers et Masters</p></Link>
-              <Link className='liste' to="/"><p>Réseau HETEA</p></Link>
-              <Link className='liste' to="/"><p>Formation continue</p></Link>
-              <Link className='liste' to="/"><p>Campus</p></Link>
+              <Link className='liste' to="/Nos__formations__continue"><p>Formation continue</p></Link>
+              <Link className='liste' to="/Campus"><p>Campus</p></Link>
               <Link className='liste' to="/"><p>Galérie</p></Link>
+              <Link className='liste' to="/"><p>Réseau HETEA</p></Link>
               <Link className='liste' to="/contactez--nous"><p>Contact</p></Link>
             </div>
             <div className='logo--resp'>
