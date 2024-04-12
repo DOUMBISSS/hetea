@@ -56,7 +56,7 @@ function Navbar ({search,setSearch}) {
               <Link className='liste' to="/Nos__formations__continue"><p>Formation continue</p></Link>
               <Link className='liste' to="/Campus"><p>Campus</p></Link>
               <Link className='liste' to="/inscription"><p>S'inscrire</p></Link>
-              <Link className='liste' to="/"><p>Vie étudiante</p></Link>
+              <Link className='liste' to="/student__life"><p>Vie étudiante</p></Link>
               <Link className='liste' to="/contactez--nous"><p>Contact</p></Link>
             </div>
             <div className='logo--resp'>

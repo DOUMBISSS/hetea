@@ -8,6 +8,7 @@ import Formations from './Pages/Formations';
 import Continue from './Pages/Continue';
 import Campus from './Pages/Campus';
 import Inscription from './Pages/Inscription';
+import Student from './Pages/Student';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/Nos__formations__continue" element={<Continue />} />
           <Route path="/Campus" element={<Campus />} />
           <Route path="/inscription" element={<Inscription />} />
+          <Route path="/student__life" element={<Student />} />
         </Routes>
       </>
   );
