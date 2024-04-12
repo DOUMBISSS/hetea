@@ -13,19 +13,39 @@ export default function Campus  () {
                         <h1>Nos campus </h1>
                     </div>
               </div>
+              <div className='campus__header'>
+                <h1 className='campus__header__title'>Une Haute École bien ancrée dans sa province </h1>
+              </div>
               <div className='container'>
-                <div className='container__description__continue'>
-                    <div className='description__continue__cards'>
-                        <img src="https://www.hepl.be/sites/default/files/styles/tile_sm/public/images/stock/2022-01/Certificats%20GettyImages-963192098%20720x480.jpg?h=47c2b8da&itok=dsgklgKt" alt="" />
-                        <p className='continue__title'>Certificats</p>
+                <div className='container__description__campus'>
+                    <div className='campus__cards'>
+                        <img src="https://www.hepl.be/sites/default/files/images/campus/vignettes/Campus%202000%20vignette%20516x798.JPG" alt="" />
+                        <p className='campus__title'>Campus 2000 - Jemepe</p>
                     </div>
-                    <div className='description__continue__cards'>
-                        <img src="https://www.hepl.be/sites/default/files/styles/tile_md/public/images/stock/2022-01/Formations%20continues%20GettyImages-469711926%20720x480.jpg?h=397f25c3&itok=gvDzqXnX" alt="" />
-                        <p className='continue__title'>Formation continue</p>
+                    <div className='campus__cards'>
+                        <img src="https://www.hepl.be/sites/default/files/images/campus/vignettes/Barbou%20vignette%20516x798.jpg" alt="" />
+                        <p className='campus__title'>Campus Barbou</p>
                     </div>
-                    <div className='description__continue__cards'>
-                        <img src="https://www.hepl.be/sites/default/files/styles/tile_sm/public/images/stock/2022-01/S%C3%A9minaires%20et%20conf%C3%A9rences%20GettyImages-829570660%20720x480.jpg?h=4a732484&itok=3OQnL47W" alt="" />
-                        <p className='continue__title'>Séminaires et conférences</p>
+                    <div className='campus__cards'>
+                        <img src="https://www.hepl.be/sites/default/files/images/campus/vignettes/6.png" alt="" />
+                        <p className='campus__title'>Campus Beeckman</p>
+                    </div>
+                    <div className='campus__cards'>
+                        <img src="https://www.hepl.be/sites/default/files/images/campus/vignettes/Gloesener%20vignette%20516x798.jpg" alt="" />
+                        <p className='campus__title'>Campus Gloesener</p>
+                    </div>
+
+                    <div className='campus__cards'>
+                        <img src="https://www.hepl.be/sites/default/files/images/campus/vignettes/2021-06%20-%20La%20Reid-24%20vignette%20516x798.jpg" alt="" />
+                        <p className='campus__title'>Campus La Reid</p>
+                    </div>
+                    <div className='campus__cards'>
+                        <img src="https://www.hepl.be/sites/default/files/images/campus/vignettes/Campus%20Kurth_vignette.png" alt="" />
+                        <p className='campus__title'>Campus Kurth</p>
+                    </div>
+                    <div className='campus__cards'>
+                        <img src="https://www.hepl.be/sites/default/files/images/campus/vignettes/Parc%20des%20Marets%20vignette%20516x798.jpg" alt="" />
+                        <p className='campus__title'>Campus Glazz</p>
                     </div>
                 </div>
           </div>

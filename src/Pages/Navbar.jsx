@@ -55,8 +55,8 @@ function Navbar ({search,setSearch}) {
               <Link className='liste' to="/Nos__formations" ><p>Bacheliers et Masters</p></Link>
               <Link className='liste' to="/Nos__formations__continue"><p>Formation continue</p></Link>
               <Link className='liste' to="/Campus"><p>Campus</p></Link>
-              <Link className='liste' to="/"><p>Galérie</p></Link>
-              <Link className='liste' to="/"><p>Réseau HETEA</p></Link>
+              <Link className='liste' to="/inscription"><p>S'inscrire</p></Link>
+              <Link className='liste' to="/"><p>Vie étudiante</p></Link>
               <Link className='liste' to="/contactez--nous"><p>Contact</p></Link>
             </div>
             <div className='logo--resp'>
@@ -66,6 +66,11 @@ function Navbar ({search,setSearch}) {
             </div>
           </div>
           <div className='navbar--right'>
+                  <button className='btn__connexion'>Connexion</button>
+                  <div className='block__search'>
+                  <input type="search" id="maRecherche" name="q" />
+                  <button className='btn__search'>Rechercher</button>
+                </div>
 
           </div>
          </div>

@@ -44,9 +44,9 @@ export default function Footer  () {
               </div>
           </div>
 
-           <div className='name--developer'>
+           {/* <div className='name--developer'>
             <p>Developed by Doumbia Fode (+225 0777880082)</p>
-           </div>
+           </div> */}
       </div>
     );
 }
